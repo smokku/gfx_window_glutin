@@ -11,7 +11,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
 [package]
 name = "gfx_window_glutin"
 version = "0.33.1"
@@ -28,9 +27,9 @@ documentation = "https://docs.rs/gfx_window_glutin"
 name = "gfx_window_glutin"
 
 [dependencies]
-glutin = "0.25.0"
-winit = "0.23.0"
-gfx_core = "0.9.1"
+glutin = "0.26.0"
+winit = "0.24.0"
+gfx_core = "0.9.2"
 gfx_device_gl = "0.16.2"
 
 [features]
